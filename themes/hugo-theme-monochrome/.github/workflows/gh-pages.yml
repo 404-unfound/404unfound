@@ -1,0 +1,41 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+          token: ${{ secrets.ACCESS_TOKEN }}
+          ssh-key: ${{ secrets.SSH_PRIVATE }}
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.115.4'
+          extended: true
+
+      - name: Setup public
+        run: git worktree add -B gh-pages ./exampleSite/public origin/gh-pages
+
+      - name: Clean public
+        run: rm -rf ./exampleSite/public/*
+
+      - name: Build
+        run: hugo -s exampleSite --baseURL https://kaiiiz.github.io/hugo-theme-monochrome --themesDir=../.. --minify --environment production
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          deploy_key: ${{ secrets.SSH_PRIVATE }}
+          publish_dir: ./exampleSite/public
+          publish_branch: gh-pages
+

@@ -1,0 +1,26 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = '404Unfound'
+theme = "hugo-theme-monochrome"
+
+[params]
+footer = "Copyright © 2023 by <a href=\"https://404unfound.com/\">404Unfound</a>"
+enable_toc = false
+color_scheme = "dark"
+
+[[menu.navbar]]
+identifier = "About"
+name = "About"
+title = "About"
+url = "/"
+
+[[menu.navbar]]
+identifier = "Writeups"
+name = "Writeups"
+title = "Writeups"
+url = "/writeups/"
+
+[[menu.navbar]]
+identifier = "Members"
+name = "Members"
+url = "/members/"
