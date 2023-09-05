@@ -13,14 +13,23 @@ identifier = "About"
 name = "About"
 title = "About"
 url = "/"
+weight = 1
 
 [[menu.navbar]]
 identifier = "Writeups"
 name = "Writeups"
 title = "Writeups"
 url = "/writeups/"
+weight = 2
 
 [[menu.navbar]]
 identifier = "Members"
 name = "Members"
 url = "/members/"
+weight = 3
+
+[[menu.navbar]]
+identifier = "404"
+name = "404"
+url = "/404/"
+weight = 4
