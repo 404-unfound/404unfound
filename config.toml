@@ -2,34 +2,46 @@ baseURL = '/'
 languageCode = 'en-us'
 title = '404Unfound'
 theme = "hugo-theme-monochrome"
+paginate = 5
 
 [params]
 footer = "Copyright © 2023 by <a href=\"https://404unfound.com/\">404Unfound</a>"
 enable_toc = false
 color_scheme = "dark"
 
-[[menu.navbar]]
-identifier = "About"
-name = "About"
-title = "About"
-url = "/"
-weight = 1
+[taxonomies]
+tag = "tags"
+ctf = "CTFs"
 
 [[menu.navbar]]
 identifier = "Writeups"
 name = "Writeups"
 title = "Writeups"
-url = "/writeups/"
+url = "/writeups"
+weight = 1
+
+[[menu.navbar]]
+identifier = "Tags"
+name = "Tags"
+title = "Tags"
+url = "/tags"
 weight = 2
+
+[[menu.navbar]]
+identifier = "CTFs"
+name = "CTFs"
+title = "CTFs"
+url = "/ctfs"
+weight = 3
 
 [[menu.navbar]]
 identifier = "Members"
 name = "Members"
-url = "/members/"
-weight = 3
+url = "/members"
+weight = 4
 
 [[menu.navbar]]
 identifier = "404"
 name = "404"
-url = "/404/"
-weight = 4
+url = "/404"
+weight = 5
