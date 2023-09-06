@@ -12,4 +12,5 @@ balloon_img_src_dark: "/404unfound_dark.png"
 
 Hello! We are a Singapore CTF team from Ngee Ann Polytechnic.
 
-Feel free to explore around our site, and do check out our [writeups](/writeups) and solutions too :smile:
+Feel free to explore around our site, and do check out our [writeups](/writeups)
+and solutions too :smile:
