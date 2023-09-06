@@ -16,25 +16,25 @@
 
         <div class="member-links">
             {{- if isset . "twitter" }}
-                <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on twitter"
+                <a target="_blank" rel="noopener noreferrer" 
                     href="{{ trim .twitter " " }}">
                     {{ partial "svg/feather.html" ("twitter") }}
                 </a>
             {{- end }}
             {{- if isset . "linkedin" }}
-                <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on linkedin"
+                <a target="_blank" rel="noopener noreferrer" 
                     href="{{ trim .linkedin " " }}">
                     {{ partial "svg/feather.html" ("linkedin") }}
                 </a>
             {{- end }}
             {{- if isset . "github" }}
-                <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on github"
+                <a target="_blank" rel="noopener noreferrer" 
                     href="{{ trim .github " " }}">
                     {{ partial "svg/feather.html" ("github") }}
                 </a>
             {{- end }}
             {{- if isset . "personal" }}
-                <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on personal"
+                <a target="_blank" rel="noopener noreferrer" 
                     href="{{ trim .personal " " }}">
                     {{ partial "svg/feather.html" ("link") }}
                 </a>
