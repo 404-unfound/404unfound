@@ -29,13 +29,13 @@
             {{- end }}
             {{- if isset . "github" }}
                 <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on github"
-                    href="{{ trim .linkedin " " }}">
+                    href="{{ trim .github " " }}">
                     {{ partial "svg/feather.html" ("github") }}
                 </a>
             {{- end }}
             {{- if isset . "personal" }}
                 <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on personal"
-                    href="{{ trim .linkedin " " }}">
+                    href="{{ trim .personal " " }}">
                     {{ partial "svg/feather.html" ("link") }}
                 </a>
             {{- end }}
