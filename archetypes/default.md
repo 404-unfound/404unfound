@@ -2,7 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-tags: []
-ctfs: []
+tags:
+- tag1
+ctfs:
+- ctf1
 ---
 

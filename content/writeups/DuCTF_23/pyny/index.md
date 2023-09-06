@@ -1,8 +1,12 @@
 ---
 title: "[DuCTF'23] Pyny"
 date: 2023-09-06T10:24:19+08:00
-tags: ["Python", "pwn"]
-ctfs: ["DuCTF'23"]
+author: "Hu Bowen"
+tags:
+- Python
+- pwn
+ctfs:
+- DuCTF'23
 ---
 
 ## DUCTF '23: Pyny
@@ -50,6 +54,6 @@ print(code.encode("utf-8").decode("punycode"))
 
 The output of the code will reveal that the seemingly unnamed `def _(): pass` function is called `python_warmup`, and the if statement contains hidden characters!
 
-![pyny](/images/DuCTF_23/pyny_1.png)
+![pyny](pyny_1.png)
 
 We can infer from this that the flag is the name of `python_warmup`, which gives us `DUCTF{python_warmup}`
