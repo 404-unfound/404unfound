@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = '404Unfound'
 theme = "hugo-theme-monochrome"
 paginate = 5
+enableEmoji = true
 
 [params]
 footer = "Copyright © 2023 by <a href=\"https://404unfound.com/\">404Unfound</a>"
