@@ -5,6 +5,10 @@ theme = "hugo-theme-monochrome"
 paginate = 5
 enableEmoji = true
 
+[minify]
+disableXML = true
+minifyOutput = true
+
 [params]
 footer = "Copyright © 2023 by <a href=\"https://404unfound.com/\">404Unfound</a>"
 enable_toc = false
