@@ -12,6 +12,7 @@ members:
 
   - name: Kairos
     course: CSF
+    pfp: kairos.png
     roles:
       - forensics
       - crypto
