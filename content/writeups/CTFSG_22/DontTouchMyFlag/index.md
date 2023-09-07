@@ -11,8 +11,7 @@ ctfs:
 
 # Don't Touch my Flag (CTF.SG 2022)
 
-Challenge Description
-![image](https://user-images.githubusercontent.com/85286288/158061123-f146dc46-5a9b-47dd-a010-8c7a97b44487.png)
+![challenge description](chal_desc.png)
 
 ## Understanding how the website works
 
@@ -24,15 +23,15 @@ the `secret` as a cookie. Keep this in mind as we'll need to make use of the
 `secret` to get the flag.
 Lastly, it censors the response by converting everything into `*`.
 
-![image](https://user-images.githubusercontent.com/85286288/158061430-e59e7762-9f13-4c32-86f0-aa939fea83b5.png)
-![image](https://user-images.githubusercontent.com/85286288/158061489-649a89bc-5a22-4497-b1ad-496d95425fec.png)
+![get](get_src.png)
+![censor](censor_src.png)
 
 ### Flag Function
 
 We see that the webpage uses the `get` function to get `\flag`, so that's
 probably the best function to look into next.
 
-![image](https://user-images.githubusercontent.com/85286288/158061557-9e8880ce-5a26-4960-81bb-b648df4dd29f.png)
+![get flag](get_flag_src.png)
 
 Seems like all it does is it reveals the flag if `secret` is correct.
 
@@ -42,7 +41,7 @@ for us :O
 
 ### Login Function
 
-![image](https://user-images.githubusercontent.com/85286288/158061894-5f86863a-db4e-41a4-b3af-7d11ac3919ec.png)
+![login](login_src.png)
 
 We see that the login function will redirect us to the next webpage with
 `secret` as a cookie parameter if `secret` as a argument passed in is correct.
@@ -62,7 +61,7 @@ request sent.
 I went to https://pipedream.com/requestbin to set up a listener, and made a
 `GET` request through `/get?uri={requestbin_link_here}`. Viola, we got the `secret`!
 
-![image](https://user-images.githubusercontent.com/85286288/158062121-7a953b78-ca90-47cf-aad8-09f18ef0162a.png)
+![pipedream](pipedream.png)
 
 ### Using Login to get Flag
 
@@ -73,4 +72,4 @@ Ez claps, we got the flag :D
 
 `CTFSG{d0nT_toUcH_mY_c00k13s}`
 
-![image](https://user-images.githubusercontent.com/85286288/158062185-cf207d80-ef55-416c-84c1-7f8aacf119c1.png)
+![flag](flag.png)
