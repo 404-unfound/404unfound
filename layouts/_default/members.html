@@ -1,7 +1,7 @@
 {{- define "content" }}
 
 <div class="members">
-    {{ range .Site.Data.members }}
+    {{ range .Site.Data.members.members }}
     <div class="member">
         <h2>{{ .name }}</h2>
         {{ if isset . "course" }}

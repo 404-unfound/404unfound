@@ -1,19 +1,20 @@
-- name: Hu Bowen
-  course: CSF
-  roles:
-    - web
-    - rev
-  desc: import brain; ModuleNotFoundError
-  linkedin: https://www.linkedin.com/in/hubowen
-  github: https://github.com/notbowen
-  personal: https://hubowen.dev
+members:
+  - name: Hu Bowen
+    course: CSF
+    roles:
+      - web
+      - rev
+    desc: import brain; ModuleNotFoundError
+    linkedin: https://www.linkedin.com/in/hubowen
+    github: https://github.com/notbowen
+    personal: https://hubowen.dev
 
-- name: Kairos
-  course: CSF
-  roles:
-    - forensics
-    - crypto
-  desc: your average linux user
-  linkedin: https://www.linkedin.com/in/kairostay
-  github: https://github.com/kairos-t
-  personal: https://www.kairostay.com
+  - name: Kairos
+    course: CSF
+    roles:
+      - forensics
+      - crypto
+    desc: your average linux user
+    linkedin: https://www.linkedin.com/in/kairostay
+    github: https://github.com/kairos-t
+    personal: https://www.kairostay.com
