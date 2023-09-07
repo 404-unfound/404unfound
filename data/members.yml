@@ -1,6 +1,6 @@
 members:
   - name: Bowen
-    course: CSF
+    course: NP CSF
     pfp: bowen.png
     roles:
       - web
@@ -11,7 +11,7 @@ members:
     personal: https://hubowen.dev
 
   - name: Kairos
-    course: CSF
+    course: NP CSF
     pfp: kairos.jpeg
     roles:
       - forensics
@@ -20,3 +20,12 @@ members:
     linkedin: https://www.linkedin.com/in/kairostay
     github: https://github.com/kairos-t
     personal: https://www.kairostay.com
+
+  - name: Bryan
+    course: NP CSF
+    roles:
+      - web
+      - forensics
+    desc: System.out.println (" send help ");
+    linkedin: https://www.linkedin.com/in/bryan-goh-5619b6241
+    github: https://github.com/Bl0bf
