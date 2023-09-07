@@ -31,6 +31,7 @@
 }
 
 .member img {
+    object-fit: cover;
     width: 50%;
     border-radius: 50%;
     margin: 0 auto 0 auto;
