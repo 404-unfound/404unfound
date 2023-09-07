@@ -178,11 +178,6 @@ article {
       @include my-2;
     }
   }
-
-  img {
-    @include mx-auto;
-    display: block;
-  }
 }
 
 html[data-theme='dark'] {

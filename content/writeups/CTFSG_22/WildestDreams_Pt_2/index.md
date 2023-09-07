@@ -11,7 +11,6 @@ ctfs:
 
 # Wildest Dreams Pt. 2 (CTF.SG 2022)
 
-Challenge Description:
 ![image](https://user-images.githubusercontent.com/85286288/158060498-00273d94-e72e-4a6d-a853-256b5b58555e.png)
 
 ## 1989.php
