@@ -1,6 +1,7 @@
 members:
   - name: Bowen
     course: CSF
+    pfp: bowen.png
     roles:
       - web
       - rev

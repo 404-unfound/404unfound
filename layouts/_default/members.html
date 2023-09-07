@@ -1,26 +1,32 @@
+<!-- Inspiration taken from NUS Greyhats: https://github.com/NUSGreyhats/NUSGreyhats.github.io/blob/master/themes/PaperMod/layouts/_default/team.html -->
 {{- define "content" }}
 
 <div class="members">
     {{ range .Site.Data.members.members }}
     <div class="member">
+        {{- if isset . "pfp" }}
+        <img src="/profile_pics/{{ .pfp }}" alt="user's profile image">
+        {{- else }}
+        <img src="/404unfound_dark.png" alt="">
+        {{- end }}
         <h2>{{ .name }}</h2>
-        {{ if isset . "course" }}
-        <p>{{ .course }}</p>
-        {{ end }}
+        <hr>
+        <p class="course">{{ .course }}</p>
 
-        <div class="member-roles">
+        <div class="roles">
             {{ range .roles }}
-            <span class="member-role">{{ . | markdownify }}</span>
+            <span>{{ . | markdownify }}</span>
             {{ end }}
         </div>
-        <p class="member-desc">{{ .desc | markdownify }}</p>
 
-        <div class="member-links">
+        <p class="description">{{ .desc | markdownify }}</p>
+
+        <div class="icons">
             {{- if isset . "twitter" }}
-                <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on twitter"
-                    href="{{ trim .twitter " " }}">
-                    {{ partial "svg/feather.html" "twitter" }}
-                </a>
+            <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on twitter"
+                href="{{ trim .twitter " " }}">
+                {{ partial "svg/feather.html" "twitter" }}
+            </a>
             {{- end }}
             {{- if isset . "linkedin" }}
                 <a target="_blank" rel="noopener noreferrer" aria-label="{{ .name | plainify }} on linkedin"
