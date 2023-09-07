@@ -49,8 +49,3 @@ name = "Members"
 url = "/members"
 weight = 4
 
-[[menu.navbar]]
-identifier = "404"
-name = "404"
-url = "/404"
-weight = 5
