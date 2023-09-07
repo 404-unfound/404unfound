@@ -23,6 +23,7 @@ members:
 
   - name: Bryan
     course: NP CSF
+    pfp: bryan.jpg
     roles:
       - web
       - forensics
