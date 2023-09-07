@@ -13,6 +13,10 @@ minifyOutput = true
 footer = "Copyright © 2023 by <a href=\"https://404unfound.com/\">404Unfound</a>"
 enable_toc = false
 color_scheme = "dark"
+enable_site_search = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
 tag = "tags"
