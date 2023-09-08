@@ -1,5 +1,6 @@
 ---
 title: "[DuCTF'23] Proxed"
+author: "Bowen"
 date: 2023-09-08T12:25:09+08:00
 tags:
 - web
