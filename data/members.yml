@@ -1,32 +1,31 @@
-members:
-  - name: Bowen
-    course: NP CSF
-    pfp: bowen.png
-    roles:
-      - web
-      - rev
-    desc: import brain; ModuleNotFoundError
-    linkedin: https://www.linkedin.com/in/hubowen
-    github: https://github.com/notbowen
-    personal: https://hubowen.dev
+- name: Bowen
+  course: NP CSF
+  pfp: bowen.png
+  roles:
+    - web
+    - rev
+  desc: import brain; ModuleNotFoundError
+  linkedin: https://www.linkedin.com/in/hubowen
+  github: https://github.com/notbowen
+  personal: https://hubowen.dev
 
-  - name: Kairos
-    course: NP CSF
-    pfp: kairos.jpeg
-    roles:
-      - forensics
-      - crypto
-    desc: your average linux user
-    linkedin: https://www.linkedin.com/in/kairostay
-    github: https://github.com/kairos-t
-    personal: https://www.kairostay.com
+- name: Kairos
+  course: NP CSF
+  pfp: kairos.jpeg
+  roles:
+    - forensics
+    - crypto
+  desc: your average linux user
+  linkedin: https://www.linkedin.com/in/kairostay
+  github: https://github.com/kairos-t
+  personal: https://www.kairostay.com
 
-  - name: Bryan
-    course: NP CSF
-    pfp: bryan.jpg
-    roles:
-      - web
-      - forensics
-    desc: System.out.println (" send help ");
-    linkedin: https://www.linkedin.com/in/bryan-goh-5619b6241
-    github: https://github.com/Bl0bf
+- name: Bryan
+  course: NP CSF
+  pfp: bryan.jpg
+  roles:
+    - web
+    - forensics
+  desc: System.out.println (" send help ");
+  linkedin: https://www.linkedin.com/in/bryan-goh-5619b6241
+  github: https://github.com/Bl0bf
