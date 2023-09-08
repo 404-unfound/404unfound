@@ -1,6 +1,6 @@
 ---
 title: "[DuCTF'23] Faraday"
-date: 2023-09-07T10:22:53+08:00
+date: 2023-09-08T17:39:53+08:00
 author: "Kairos"
 tags:
 - OSINT
@@ -8,7 +8,7 @@ ctfs:
 - DuCTF'23
 ---
 
-## DUCTF'23: BlinkyBIll
+## DUCTF'23: Faraday
 
 This was a pretty interesting OSINT challenge which made use of GSMA's Location API, to determine a target's location using their phone number. It verifies if the device location is within a requested area based on their network activity (cell tower triangulation, GPS and Wi-Fi hotspot data)
 
