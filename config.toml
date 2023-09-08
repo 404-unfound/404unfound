@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://404unfound.com/'
 languageCode = 'en-us'
 title = '404Unfound'
 theme = "hugo-theme-monochrome"
