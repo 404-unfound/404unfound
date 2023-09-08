@@ -22,6 +22,9 @@ enable_site_search = true
 [params.syntax_highlight]
 lib = "prism.js"
 
+[params.syntax_highlight.prism]
+enable_line_no = false
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
