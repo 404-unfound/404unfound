@@ -29,7 +29,7 @@ When we look at the source code, we can see that there are 2 folders, `proxy` an
 
 Within the `secret_server` folder, the code is the same as the original `proxed` challenge. As a quick reminder, this code is responsible for parsing HTTP headers, extracting the IP address from the `X-Forwarded-For` header, and checking if it matches the IP address `31.33.33.7` If they match, the flag is returned.
 
-However, the `proxy` folder brings a twist to the challenge. Upon reviewing the code, we can see that it parses the request and appends our own IP address to the end of the HTTP header. Thus, we won't be able to solve it by just passing an `X-Forwarded-For` header with the matching IP address 😔
+However, the `proxy` folder brings a twist to the challenge. Upon reviewing the code, we can see that it parses the request and appends our own IP address to the end of the HTTP header. Thus, we won't be able to solve it by just passing an `X-Forwarded-For` header with the matching IP address, as it'll simply be overwritten with the appended IP address 😔
 
 ```go
 func main() {
@@ -67,7 +67,7 @@ if strings.ToLower(v[0]) == "x-forwarded-for" {
 }
 ```
 
-This means that if we supply a second `X-Forwarded-For` header, it won't be processed by this loop. Instead, it will become the last IP address in `X-Forwarded-For`, which is what the `secret_server` uses to check the IP address against.
+This means that if we supply a second `X-Forwarded-For` header, it won't be processed by this loop. However, it will still exist and thus get parsed by `secret_server`. Hence, it will become the last IP address in `X-Forwarded-For`, which is what the `secret_server` uses to check the IP address against.
 
 ## Solution
 
