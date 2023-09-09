@@ -3,4 +3,4 @@ title: "Upcoming"
 weight: 1
 ---
 
-- [Hitcon CTF 2023](https://ctf2023.hitcon.org/) - A Taiwanese CTF by HIT and Industrial Technology Research Institute
+- [PatriotCTF 2023](https://pctf.competitivecyber.club/) - A CTF hosted by GMU's cybersecurity club
