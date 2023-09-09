@@ -29,3 +29,21 @@
   desc: System.out.println (" send help ");
   linkedin: https://www.linkedin.com/in/bryan-goh-5619b6241
   github: https://github.com/Bl0bf
+
+- name: Dhava
+  course: NP CSF
+  pfp: dhava.jpg
+  roles:
+    - crypto
+  desc: keep calm and print hello world!
+  linkedin: https://www.linkedin.com/in/dhavasre-senthilkumar-304a00272/
+  github: https://github.com/dhavaaaa
+
+- name: Galen
+  course: NP CSF
+  roles:
+    - web
+    - misc
+  desc: balls
+  linkedin: https://www.linkedin.com/in/galen-tay-331029263/
+  github: https://github.com/GalenLovesCheese
