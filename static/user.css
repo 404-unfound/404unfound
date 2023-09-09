@@ -32,7 +32,8 @@
 
 .member img {
     object-fit: cover;
-    width: 10vw;
+    width: 50%;
+    min-height: auto;
     border-radius: 50%;
     margin: auto;
 }
