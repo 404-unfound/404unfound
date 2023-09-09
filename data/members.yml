@@ -41,6 +41,7 @@
 
 - name: Galen
   course: NP CSF
+  pfp: galen.png
   roles:
     - web
     - misc
