@@ -36,6 +36,7 @@
     height: 50%;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
+    object-position: center center;
     margin: auto;
 }
 
