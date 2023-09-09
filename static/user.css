@@ -32,10 +32,8 @@
 
 .member img {
     object-fit: cover;
-    width: 50%;
-    height: 50%;
+    width: 10vw;
     border-radius: 50%;
-    aspect-ratio: 1 / 1 !important;
     margin: auto;
 }
 
