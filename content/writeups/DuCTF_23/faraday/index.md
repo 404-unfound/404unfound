@@ -130,6 +130,7 @@ Knowing that the point is within 200km of this point, I reduced the radius until
   },
   "maxAge": 120
 }
+```
 ```JSON
 {
   "lastLocationTime": "Fri Sep  8 09:34:49 2023",
