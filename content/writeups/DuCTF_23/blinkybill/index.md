@@ -24,7 +24,7 @@ The beeps gave it away that it was morse code. I put the wav file into Audacity,
 
 ![waveform](waveform.png)
 
-LOoking at the waveform, I could see that there were two different lengths of beeps, which corresponded to dots and dashes in morse code. Looking at the waveforms, I typed out the matching dots and dashes into a text editor and my result was as shown:
+Looking at the waveform, I could see that there were two different lengths of beeps, which corresponded to dots and dashes in morse code. Looking at the waveforms, I typed out the matching dots and dashes into a text editor and my result was as shown:
 
 ![morsecode](morsecode.png)
 
