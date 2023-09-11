@@ -5,7 +5,7 @@ author: "Dhavasre"
 tags:
 - Crypto
 ctfs:
-- PCTF’23
+- PatriotCTF'23
 ---
 
 ## Patriot CTF: My phone!
