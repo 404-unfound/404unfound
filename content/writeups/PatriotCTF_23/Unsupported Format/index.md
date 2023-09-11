@@ -5,7 +5,7 @@ author: "Kairos"
 tags:
 - Forensics
 ctfs:
-- PCTF'23
+- PatriotCTF'23
 ---
 
 ## Patriot CTF: Unsupported Format

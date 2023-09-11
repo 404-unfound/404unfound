@@ -5,7 +5,7 @@ author: "Kairos"
 tags:
 - OSINT
 ctfs:
-- PCTF'23
+- PatriotCTF'23
 ---
 
 ## Patriot CTF: Rouge Access Point
