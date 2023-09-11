@@ -8,7 +8,7 @@ balloon_img_src_dark: "/404unfound_dark.png"
 
 {{< icon-group >}}
 {{< icon vendor="feather" name="github" link="https://github.com/404-unfound" >}}
-{{< icon vendor="feather" name="mail" link="mailto:contact@404unfound.com" >}}
+{{< icon vendor="feather" name="mail" link="mailto:hello@404unfound.com" >}}
 {{< icon vendor="feather" name="flag" link="https://ctftime.org/team/268289" >}}
 {{< icon vendor="fa-brands" name="discord" link="https://discord.gg/EnvswA55Tf" >}}
 {{< /icon-group >}}
