@@ -62,7 +62,8 @@
   course: RVCTF
   pfp: james.jpeg
   roles:
-    - crypto
+    - web
+    - forensics
   desc: A speck in Zeyu's rear mirror
   linkedin: https://www.linkedin.com/in/chan-xing-yu-james
   github: https://github.com/dynamic-stacker
