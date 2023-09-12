@@ -19,13 +19,15 @@ My friend sent me a picture of his brand new computer, but something strange hap
 ```
 
 Trying to open the attached challenge image file would result in something like this:
-![file](challenge.jpg)
+
+![challenge](challenge.png)
 
 But this tell us that the file is indeed supposed to be in jpg format.
 
 ## Solution
 
 I used a forensic tool called `foremost` to fix the data structure of the corrupted file. It's a really simple command line tool:
+
 ![foremost](Foremost.png)
 
 The image was then sent to an `Output` folder which contained the fix image:
