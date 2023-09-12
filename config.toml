@@ -14,7 +14,7 @@ codeFences = false
 lineNos = false
 
 [params]
-footer = "Copyright © 2023 by <a href=\"https://404unfound.com/\">404Unfound</a>"
+footer = "© 2023 <a href=\"https://404unfound.com/\">404Unfound</a> Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://github.com/kaiiiz/hugo-theme-monochrome\">Monochrome</a>"
 enable_toc = false
 color_scheme = "dark"
 enable_site_search = true
@@ -58,4 +58,3 @@ identifier = "Members"
 name = "Members"
 url = "/members"
 weight = 4
-
