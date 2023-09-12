@@ -6,7 +6,7 @@ Thank you for considering contributing to our repository! We welcome contributio
 
 1. Fork this repository to your GitHub account.
 2. If necessary, create a folder for the CTF in `content/writeups`. 
-3. Inside the CTF folder, create a Markdown(.md) file for your writeup using the following template:
+3. Inside the CTF folder, create a Markdown(index.md) file for your writeup using the following template:
 
 ```markdown
 ---
@@ -14,7 +14,7 @@ title: "[CTF Name] Challenge Name"
 date: YYYY-MM-DDTHH:MM:SS+08:00
 author: "Your Name"
 tags:
-- ctf category
+  - ctf category
 ctfs:
   -  ctf name
 ---
