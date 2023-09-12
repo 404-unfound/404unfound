@@ -25,13 +25,15 @@ Your writeup content goes here.
 To embed an image, add it to the same directory (folder) and use the following Markdown format:
 
 ![Image](image.png)
+```
 
 OR automatically generate the Markdown file using: 
+
 ```bash
 hugo new content/writeups/.../index.md
 ```
 
-4. Make sure to replace [CTF Name], Challenge Name, YYYY-MM-DDTHH:MM:SS+08:00, Your Name, and ctf category with the appropriate information.
+4. Make sure to replace [CTF Name], Challenge Name, YYYY-MM-DDTHH:MM:SS+08:00, Your Name, and ctf category with the appropriate information, where needed.
 
 ## Adding Profile Info
 
@@ -50,7 +52,6 @@ hugo new content/writeups/.../index.md
   github: https://github.com/yourgithub
   twitter: https://https://twitter.com/yourtwitter
   personal: https://www.yourwebsite.com
-
 ```
 Note that `pfp`, `linkedin`, `github`, `twitter` and  `personal` are **optional** fields.
 
