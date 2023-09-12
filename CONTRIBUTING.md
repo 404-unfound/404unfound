@@ -6,7 +6,7 @@ Thank you for considering contributing to our repository! We welcome contributio
 
 1. Fork this repository to your GitHub account.
 2. If necessary, create a folder for the CTF in `content/writeups`. 
-3. Inside the CTF folder, create a Markdown(index.md) file for your writeup using the following template:
+3. Inside the CTF folder, create a Markdown(.md) file for your writeup using the following template:
 
 ```markdown
 ---
@@ -25,7 +25,12 @@ Your writeup content goes here.
 To embed an image, add it to the same directory (folder) and use the following Markdown format:
 
 ![Image](image.png)
+
+OR automatically generate the Markdown file using: 
+```bash
+hugo new content/writeups/.../index.md
 ```
+
 4. Make sure to replace [CTF Name], Challenge Name, YYYY-MM-DDTHH:MM:SS+08:00, Your Name, and ctf category with the appropriate information.
 
 ## Adding Profile Info
