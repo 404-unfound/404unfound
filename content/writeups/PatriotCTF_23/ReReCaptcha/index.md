@@ -16,9 +16,21 @@ This was an RSA challenge which required the use of OCR (Optical character recog
 ## The Challenge
 
 The challenge had a zip file containing four images:
+
+CT.png:
+
 ![CT](CT.png)
+
+E.png:
+
 ![E](E.png)
+
+P.png:
+
 ![P](P.png)
+
+Q.png:
+
 ![Q](Q.png)
 
 In RSA (and here),
