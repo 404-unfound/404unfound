@@ -1,6 +1,6 @@
 ---
-title: "Gallery"
-date: 2023-09-13T12:23:43+08:00
+title: "[CDDC'23] Gallery"
+date: 2023-06-15T12:23:43+08:00
 author: "Kairos"
 tags:
 - Web
