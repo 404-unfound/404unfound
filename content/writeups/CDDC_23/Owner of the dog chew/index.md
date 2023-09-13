@@ -9,7 +9,7 @@ ctfs:
 - CDDC'23
 ---
 
-## CDDC'23 Owner of the dog chew
+## CDDC'23: Owner of the dog chew
 
 This was a pretty interesting steganography challenge which required the analysis of `strings` and using `binwalk`.
 
