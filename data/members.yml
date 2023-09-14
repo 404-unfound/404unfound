@@ -46,7 +46,7 @@
     - web
     - misc
   desc: balls
-  linkedin: https://www.linkedin.com/in/galen-tay-331029263/
+  linkedin: https://www.linkedin.com/in/galen-Tay-331029263/
   github: https://github.com/GalenLovesCheese
 
 - name: David
@@ -67,3 +67,13 @@
   desc: A speck in Zeyu's rear mirror
   linkedin: https://www.linkedin.com/in/chan-xing-yu-james
   github: https://github.com/dynamic-stacker
+
+- name: Callum
+  course: TSIS
+  pfp: callum.jpeg
+  roles:
+    - crypto
+    - forensics
+  desc: i have no idea what im doing
+  linkedin: https://www.linkedin.com/in/callum-q-27a967245/
+  github: https://github.com/callum-hq
