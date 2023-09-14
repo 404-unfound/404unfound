@@ -13,7 +13,7 @@ balloon_img_src_dark: "/404unfound_dark.png"
 {{< icon vendor="fa-brands" name="discord" link="https://discord.gg/EnvswA55Tf" >}}
 {{< /icon-group >}}
 
-Hello! We are a Singapore CTF team from Ngee Ann Polytechnic.
+Hello! We are a CTF team based in Singapore striving to secure tomorrow, one flag at a time.
 
 Feel free to explore around our site, and do check out our [writeups](/writeups)
 and solutions too :smile:
