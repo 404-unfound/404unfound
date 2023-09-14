@@ -16,7 +16,7 @@ author: "Your Name"
 tags:
   - ctf category
 ctfs:
-  -  ctf name
+  - ctf name
 ---
 
 # Challenge Name
