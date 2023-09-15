@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF’23] My phone!"
 date: 2023-09-11T13:44:46+08:00
-author: "Dhavasre"
+authors:
+- Dhavasre
 tags:
 - Crypto
 ctfs:

@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] ReReCaptcha"
 date: 2023-09-12T21:29:34+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
   - crypto
   - Python

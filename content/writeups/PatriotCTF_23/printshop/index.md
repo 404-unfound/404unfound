@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Printshop"
 date: 2023-09-11T15:37:38+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - pwn
 - printf

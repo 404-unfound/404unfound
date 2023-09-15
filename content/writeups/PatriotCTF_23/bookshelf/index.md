@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Bookshelf"
 date: 2023-09-12T19:52:02+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - pwn
 - rop

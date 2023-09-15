@@ -1,7 +1,8 @@
 ---
 title: "[CDDC'23] Owner of the dog chew"
 date: 2023-06-15T17:30:34+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Forensics
 - Steganography

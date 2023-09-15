@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Rouge Access Point"
 date: 2023-09-10T17:30:34+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - OSINT
 ctfs:

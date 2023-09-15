@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Breakfast club"
 date: 2023-09-11T13:49:34+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
   - crypto
   - Python

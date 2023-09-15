@@ -1,7 +1,8 @@
 ---
 title: "[DuCTF'23] BlinkyBill"
 date: 2023-09-07T10:22:53+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Steganography
 - crypto

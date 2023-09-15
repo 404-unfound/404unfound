@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Flower Shop"
 date: 2023-09-12T12:15:01+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - web
 - php

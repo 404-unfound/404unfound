@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] WPA"
 date: 2023-09-14T23:00:02+08:00
-author: "Callum"
+authors:
+- Callum
 tags:
 - wifi
 - misc

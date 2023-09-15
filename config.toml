@@ -59,3 +59,9 @@ identifier = "Members"
 name = "Members"
 url = "/members"
 weight = 4
+
+[[menu.navbar]]
+identifier = "Authors"
+name = "Authors"
+url = "/authors"
+weight = 5
