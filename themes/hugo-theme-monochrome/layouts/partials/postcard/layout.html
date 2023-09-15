@@ -12,7 +12,7 @@
                     <span>{{ .Summary | plainify }}</span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>{{ .Date.Format "2006/01/02" }} · {{ .Param "author" }}</span>
+                    <span>{{ .Date.Format "2006/01/02" }} · {{ range $i, $author := .Param "authors" }}{{ if $i }}, {{ end }}{{ $author }}{{ end }}</span>
                 </div>
             </div>
         </a>

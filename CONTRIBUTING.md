@@ -12,7 +12,8 @@ Thank you for considering contributing to our repository! We welcome contributio
 ---
 title: "[CTF Name] Challenge Name"
 date: YYYY-MM-DDTHH:MM:SS+08:00
-author: "Your Name"
+authors:
+  - your name
 tags:
   - ctf category
 ctfs:

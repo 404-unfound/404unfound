@@ -1,7 +1,8 @@
 ---
 title: "[GreyCTF'23] CrashPython"
 date: 2023-07-07T10:24:19+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Python
 - misc

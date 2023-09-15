@@ -1,7 +1,8 @@
 ---
 title: "[DuCTF'23] Actually Proxed"
 date: 2023-09-08T13:01:46+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - web
 ctfs:

@@ -1,7 +1,8 @@
 ---
 title: "[CDDC'23] The Key"
 date: 2023-06-15T12:36:52+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Rev
 ctfs:

@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Guessinggame"
 date: 2023-09-11T10:03:06+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - pwn
 ctfs:

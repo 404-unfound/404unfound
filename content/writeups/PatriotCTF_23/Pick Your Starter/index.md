@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Pick Your Starter"
 date: 2023-09-11T10:50:04+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - web
 - SSTI

@@ -1,7 +1,8 @@
 ---
 title: "[PatriotCTF'23] Unsupported Format"
 date: 2023-09-10T17:12:34+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Forensics
 ctfs:

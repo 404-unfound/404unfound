@@ -31,6 +31,7 @@ home = ["HTML", "RSS", "JSON"]
 [taxonomies]
 tag = "tags"
 ctf = "CTFs"
+authors = "authors"
 
 [[menu.navbar]]
 identifier = "Writeups"
@@ -40,21 +41,27 @@ url = "/writeups"
 weight = 1
 
 [[menu.navbar]]
+identifier = "Members"
+name = "Members"
+url = "/members"
+weight = 2
+
+[[menu.navbar]]
 identifier = "Tags"
 name = "Tags"
 title = "Tags"
 url = "/tags"
-weight = 2
+weight = 3
 
 [[menu.navbar]]
 identifier = "CTFs"
 name = "CTFs"
 title = "CTFs"
 url = "/ctfs"
-weight = 3
+weight = 4
 
 [[menu.navbar]]
-identifier = "Members"
-name = "Members"
-url = "/members"
-weight = 4
+identifier = "Authors"
+name = "Authors"
+url = "/authors"
+weight = 5

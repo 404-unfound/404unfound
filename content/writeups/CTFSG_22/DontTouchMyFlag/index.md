@@ -1,7 +1,8 @@
 ---
 title: "[CTF.SG'22] Don't Touch My Flag"
 date: 2022-03-13T00:00:00+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - Python
 - web

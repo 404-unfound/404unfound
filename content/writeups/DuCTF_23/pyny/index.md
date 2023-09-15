@@ -1,7 +1,8 @@
 ---
 title: "[DuCTF'23] Pyny"
 date: 2023-09-06T10:24:19+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - Python
 - pwn

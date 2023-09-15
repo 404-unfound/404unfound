@@ -1,7 +1,8 @@
 ---
 title: "[CTF.SG'22] Wildest Dreams Pt 2"
 date: 2022-03-13T00:00:00+08:00
-author: "Bowen"
+authors:
+- Bowen
 tags:
 - web
 - php

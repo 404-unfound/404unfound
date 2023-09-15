@@ -1,7 +1,8 @@
 ---
 title: "[CDDC'23] Audio Steganography"
 date: 2023-06-15T17:18:07+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Steganography
 - Python

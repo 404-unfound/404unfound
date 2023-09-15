@@ -1,7 +1,8 @@
 ---
 title: "[DuCTF'23] Faraday"
 date: 2023-09-08T17:39:53+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - OSINT
 ctfs:

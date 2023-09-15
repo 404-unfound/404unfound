@@ -1,7 +1,8 @@
 ---
 title: "[SEETF'23] BabyRC4"
 date: 2023-06-26T10:24:19+08:00
-author: "Kairos"
+authors:
+- Kairos
 tags:
 - Python
 - crypto
