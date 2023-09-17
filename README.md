@@ -53,7 +53,7 @@ cd 404unfound
 ```
 
 3. Install Hugo, the static site generator we use:
-You can find the installation instructions for Hugo on the p[Hugo website](https://gohugo.io/installation/)
+You can find the installation instructions for Hugo on the [Hugo website](https://gohugo.io/installation/)
 
 4. Start the development server:
 ```bash
