@@ -40,7 +40,7 @@ c1 = bytes.fromhex('a5c237b6102db668ce467579c702d5af4bec7e7d4c0831e3707438a6a3c8
 
 Looking at the code, the challenge involves requiring to decrypt the flag value by reversing the encryption process. It gives two ciphertexts: `c0` and `c1`. The objective was to decrypt the flag, represented as `b'SEE{?????????????????????????????????}'[::-1]`.
 
-In essense, the ARC4 XORs each byte of the plaintext with a corresponding byte from a pseudorandom key (generated from the `key` variable). XOR is a binary operation which compares two  binary values (plaintext and key) to produce an encrypted result. Read more [here](https://www.101computing.net/xor-encryption-algorithm/).
+In essence, the ARC4 XORs each byte of the plaintext with a corresponding byte from a pseudorandom key (generated from the `key` variable). XOR is a binary operation which compares two  binary values (plaintext and key) to produce an encrypted result. Read more [here](https://www.101computing.net/xor-encryption-algorithm/).
 
 But lets look closer at the code.
 1. First, the code generates a random 16-byte (128-bit) key using the `urandom` function.
