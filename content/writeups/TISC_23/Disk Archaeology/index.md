@@ -47,9 +47,11 @@ kairos@pop-os:~$ strings -t d Downloads/challenge.img | grep -iE "tisc"
 While it looked like that was the flag, a quick search showed that `%s` is usually a placeholder for a string in languages like C and C++. 
 
 Next, I mounted the file onto Autopsy. 
+
 ![autopsy](autopsy.jpg)
 
 With many different directories and files that we had to potentially dig through, I decided to use Autopsy's tools to run ingest modules. 
+
 ![Ingest Modules](IngestModules.png)
 
 I unchecked the modules that weren't available (due to compatibility issues with Linux) or irrelevant. These modules helped to carve suspicious files or potential things we could look into. 
