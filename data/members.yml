@@ -77,3 +77,13 @@
   desc: i have no idea what im doing
   linkedin: https://www.linkedin.com/in/callum-q-27a967245/
   github: https://github.com/callum-hq
+
+- name: Brayden
+  course: NP CSF
+  pfp: brayden.png
+  roles:
+    - crypto
+    - osint
+  desc: learnt ctf from chatgpt
+  linkedin: https://www.linkedin.com/in/braydensaga/
+  github: https://github.com/braydenNP
