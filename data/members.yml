@@ -1,4 +1,4 @@
-- name: Bowen
+- name: Hu Bowen
   course: NP CSF
   pfp: bowen.png
   roles:
@@ -9,7 +9,7 @@
   github: https://github.com/notbowen
   personal: https://hubowen.dev
 
-- name: Kairos
+- name: Kairos Tay
   course: NP CSF
   pfp: kairos.jpeg
   roles:
@@ -20,7 +20,7 @@
   github: https://github.com/kairos-t
   personal: https://www.kairostay.com
 
-- name: Bryan
+- name: Bryan Goh
   course: NP CSF
   pfp: bryan.jpg
   roles:
@@ -39,7 +39,7 @@
   linkedin: https://www.linkedin.com/in/dhavasre-senthilkumar-304a00272/
   github: https://github.com/dhavaaaa
 
-- name: Galen
+- name: Galen Tay
   course: NP CSF
   pfp: galen.png
   roles:
@@ -49,7 +49,7 @@
   linkedin: https://www.linkedin.com/in/galen-Tay-331029263/
   github: https://github.com/GalenLovesCheese
 
-- name: David
+- name: David Chan
   course: RVCTF
   pfp: david.jpeg
   roles:
@@ -58,7 +58,7 @@
   linkedin: https://www.linkedin.com/in/chan-si-yu-david-835888241/
   github: https://github.com/chansiyudavid
 
-- name: James
+- name: James Chan
   course: RVCTF
   pfp: james.jpeg
   roles:
@@ -68,7 +68,7 @@
   linkedin: https://www.linkedin.com/in/chan-xing-yu-james
   github: https://github.com/dynamic-stacker
 
-- name: Callum
+- name: Callum Quek
   course: TSIS
   pfp: callum.jpeg
   roles:
@@ -78,7 +78,7 @@
   linkedin: https://www.linkedin.com/in/callum-q-27a967245/
   github: https://github.com/callum-hq
 
-- name: Brayden
+- name: Brayden Saga
   course: NP CSF
   pfp: brayden.png
   roles:
@@ -87,3 +87,11 @@
   desc: learnt ctf from chatgpt
   linkedin: https://www.linkedin.com/in/braydensaga/
   github: https://github.com/braydenNP
+
+- name: Chua Yu Xuan
+  course: NP CSF
+  pfp: yuxuan.png
+  roles:
+  desc: i build (and blow-up) stuff
+  linkedin:  https://linkedin.com/in/chua-yu-xuan
+  github: https://github.com/pengsies
