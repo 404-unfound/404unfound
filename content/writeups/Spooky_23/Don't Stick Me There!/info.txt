@@ -1,0 +1,193 @@
+ExifTool Version Number         : 12.40
+File Name                       : lastphoto.png
+Directory                       : .
+File Size                       : 13 MiB
+File Modification Date/Time     : 2023:10:29 10:39:15+08:00
+File Access Date/Time           : 2023:10:29 10:39:11+08:00
+File Inode Change Date/Time     : 2023:10:29 10:39:15+08:00
+File Permissions                : -rw-rw-r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 3024
+Image Height                    : 4032
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Profile Name                    : icc
+White Point X                   : 0.3127
+White Point Y                   : 0.329
+Red X                           : 0.64
+Red Y                           : 0.33
+Green X                         : 0.3
+Green Y                         : 0.6
+Blue X                          : 0.15
+Blue Y                          : 0.06
+Background Color                : 255 255 255
+Pixels Per Unit X               : 2834
+Pixels Per Unit Y               : 2834
+Pixel Units                     : meters
+Profile CMM Type                : Apple Computer Inc.
+Profile Version                 : 4.0.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 2022:01:01 00:00:00
+Profile File Signature          : acsp
+Primary Platform                : Apple Computer Inc.
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : Apple Computer Inc.
+Device Model                    : 
+Device Attributes               : Reflective, Glossy, Positive, Color
+Rendering Intent                : Perceptual
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Apple Computer Inc.
+Profile ID                      : ecfda38e388547c36db4bd4f7ada182f
+Profile Description             : Display P3
+Profile Copyright               : Copyright Apple Inc., 2022
+Media White Point               : 0.96419 1 0.82489
+Red Matrix Column               : 0.51512 0.2412 -0.00105
+Green Matrix Column             : 0.29198 0.69225 0.04189
+Blue Matrix Column              : 0.1571 0.06657 0.78407
+Red Tone Reproduction Curve     : (Binary data 32 bytes, use -b option to extract)
+Chromatic Adaptation            : 1.04788 0.02292 -0.0502 0.02959 0.99048 -0.01706 -0.00923 0.01508 0.75168
+Blue Tone Reproduction Curve    : (Binary data 32 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 32 bytes, use -b option to extract)
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Make                            : Apple
+Camera Model Name               : iPhone 12 Pro
+Orientation                     : Horizontal (normal)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Software                        : 16.6
+Modify Date                     : 2023:08:13 03:47:12
+Host Computer                   : iPhone 12 Pro
+F Number                        : 1.6
+Exposure Program                : Program AE
+ISO                             : 640
+Exif Version                    : 0232
+Date/Time Original              : 2023:08:13 03:47:12
+Create Date                     : 2023:08:13 03:47:12
+Offset Time                     : -04:00
+Offset Time Original            : -04:00
+Offset Time Digitized           : -04:00
+Shutter Speed Value             : 0.5
+Aperture Value                  : 1.6
+Brightness Value                : -5.793323634
+Metering Mode                   : Multi-segment
+Flash                           : Off, Did not fire
+Focal Length                    : 4.2 mm
+Subject Area                    : 2002 1506 2213 1390
+Run Time Flags                  : Valid
+Run Time Value                  : 858697460667708
+Run Time Scale                  : 1000000000
+Run Time Epoch                  : 0
+Acceleration Vector             : 0.009411471894 -1.000111342 -0.06408122181
+Warning                         : [minor] Bad format (16) for MakerNotes entry 14
+Sub Sec Time Original           : 948
+Sub Sec Time Digitized          : 948
+Color Space                     : Uncalibrated
+Exif Image Width                : 4032
+Exif Image Height               : 3024
+Sensing Method                  : One-chip color area
+Scene Type                      : Directly photographed
+Exposure Mode                   : Auto
+White Balance                   : Auto
+Focal Length In 35mm Format     : 26 mm
+Lens Info                       : 1.539999962-6mm f/1.6-2.4
+Lens Make                       : Apple
+Lens Model                      : iPhone 12 Pro back triple camera 4.2mm f/1.6
+Composite Image                 : Composite Image Captured While Shooting
+Composite Image Count           : 6 0
+Composite Image Exposure Times  : 0 3.2 0 0.5 0 0.5 0 0
+GPS Latitude Ref                : North
+GPS Longitude Ref               : West
+GPS Altitude Ref                : Above Sea Level
+GPS Speed Ref                   : km/h
+GPS Speed                       : 0
+GPS Img Direction Ref           : True North
+GPS Img Direction               : 249.8489703
+GPS Dest Bearing Ref            : True North
+GPS Dest Bearing                : 249.8489703
+GPS Date Stamp                  : 2023:08:13
+GPS Horizontal Positioning Error: 35 m
+Datecreate                      : 2023-10-03T03:57:54+00:00
+Datemodify                      : 2023-10-03T03:57:54+00:00
+Datetimestamp                   : 2023-10-03T03:57:54+00:00
+Exif Aperture Value             : 14447/10653
+Exif Brightness Value           : -71675/12372
+Exif Color Space                : 65535
+Exif Date Time                  : 2023:08:12 21:56:32
+Exif Date Time Digitized        : 2023:08:12 21:56:32
+Exif Date Time Original         : 2023:08:12 21:56:32
+Exif Exif Offset                : 222
+Exif Exif Version               : 0232
+Exif Exposure Bias Value        : -1/32
+Exif Exposure Mode              : 0
+Exif Exposure Program           : 2
+Exif Exposure Time              : 1/2
+Exif Flash                      : 16
+Exif F Number                   : 8/5
+Exif Focal Length               : 21/5
+Exif Focal Length In 35mm Film  : 26
+Exif GPS Altitude               : 88897/8407
+Exif GPS Altitude Ref           : .
+Exif GPS Date Stamp             : 2023:08:13
+Exif GPS Dest Bearing           : 375523/1503
+Exif GPS Dest Bearing Ref       : T
+Exif GPSH Positioning Error     : 35/1
+Exif GPS Img Direction          : 375523/1503
+Exif GPS Img Direction Ref      : T
+Exif GPS Info                   : 2262
+Exif GPS Latitude               : 40/1, 42/1, 3302/100
+Exif GPS Latitude Ref           : N
+Exif GPS Longitude              : 73/1, 56/1, 1404/100
+Exif GPS Longitude Ref          : W
+Exif GPS Speed                  : 0/1
+Exif GPS Speed Ref              : K
+Exif Lens Make                  : Apple
+Exif Lens Model                 : iPhone 12 Pro back triple camera 4.2mm f/1.6
+Exif Lens Specification         : 807365/524263, 6/1, 8/5, 12/5
+Exif Make                       : Apple
+Exif Maker Note                 : Apple iOS
+Exif Metering Mode              : 5
+Exif Model                      : iPhone 12 Pro
+Exif Offset Time                : -04:00
+Exif Offset Time Digitized      : -04:00
+Exif Offset Time Original       : -04:00
+Exif Photographic Sensitivity   : 640
+Exif Pixel X Dimension          : 4032
+Exif Pixel Y Dimension          : 3024
+Exif Scene Type                 : .
+Exif Sensing Method             : 2
+Exif Shutter Speed Value        : 41791/46082
+Exif Software                   : 16.6
+Exif Subject Area               : 2002, 1506, 2213, 1390
+Exif Sub Sec Time Digitized     : 948
+Exif Sub Sec Time Original      : 948
+Exif White Balance              : 0
+Icccopyright                    : Copyright Apple Inc., 2022
+Iccdescription                  : Display P3
+Unknown                         : iPhone 12 Pro
+Run Time Since Power Up         : 9 days 22:31:37
+Aperture                        : 1.6
+Image Size                      : 3024x4032
+Megapixels                      : 12.2
+Scale Factor To 35 mm Equivalent: 6.2
+Shutter Speed                   : 0.5
+Create Date                     : 2023:08:13 03:47:12.948-04:00
+Date/Time Original              : 2023:08:13 03:47:12.948-04:00
+Modify Date                     : 2023:08:13 03:47:12-04:00
+GPS Altitude                    : 10.5 m Above Sea Level
+GPS Latitude                    : 40 deg 42' 33.02" N
+GPS Longitude                   : 73 deg 56' 14.04" W
+Circle Of Confusion             : 0.005 mm
+Field Of View                   : 69.4 deg
+Focal Length                    : 4.2 mm (35 mm equivalent: 26.0 mm)
+GPS Position                    : 40 deg 42' 33.02" N, 73 deg 56' 14.04" W
+Hyperfocal Distance             : 2.27 m
+Light Value                     : -0.3
+Lens ID                         : iPhone 12 Pro back triple camera 4.2mm f/1.6
