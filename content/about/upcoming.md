@@ -3,4 +3,4 @@ title: "Upcoming"
 weight: 0
 ---
 
-- [37C3 Potluck CTF](https://play.potluckctf.com/) - Last CTF of 2023 🥳
+- [UofTCTF](https://ctf.uoftctf.org/) - First CTF of 2024! 🥳
