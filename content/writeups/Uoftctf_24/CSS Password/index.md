@@ -11,9 +11,9 @@ ctfs:
 
 # CSS Password
 
-This challenge was my first rev challenge, taught me a whole load of stuff.
-People who do rev at a high level are a different breed. Imagine waking up
-one day and casually thinking: "Let's code out a CTF challenge by implementing RAM in CSS!"
+This challenge was my first rev challenge and it really showed me the wonders of programming.
+People who do rev at a high level are honestly a completely different breed.
+The challenge author really woke up one day and decided to implement RAM in CSS, and CSS only.
 
 ## Description
 
@@ -27,7 +27,7 @@ The challenge file can be found [here](css-password.html).
 ## Initial State of Confusion
 
 Upon opening the file, we see a whole load of classes and class names that seemingly
-don't make sense at all. We are told to make all the LED lights turn green in order
+doesn't make sense at all. We are told to make all the LED lights turn green in order
 to retrieve the flag. The first thought that came to mind was each of these bytes
 represent a letter in the final flag, since ASCII values can be represented in binary.
 Though this is indeed the correct way, I had absolutely no clue how I was going to pinpoint
@@ -37,11 +37,14 @@ the right value.
 
 ## The Big Aha Moment
 
-After staring at my screen for a lot longer than I'd like to admit, and falling into a rabbit
+After staring at my screen for a lot longer than I'd like to admit, and going down a rabbit
 hole of searching how SR-Latches worked, I finally figured out how the LEDs were supposed to
-turn green. All the repeating lines of CSS seem to set the `transform` to `translateX(-100%)`
-when a certain condition is fulfilled, and the condition seemed to be dependent on the
-`latch__set` or `latch__reset` class.
+turn green. Some of the repeating lines of CSS seem to set the `transform` to `translateX(-100%)`,
+which moves the overlapping red circle off the screen. Once all the red circles are moved away,
+the green circle below is revealed.
+
+However, the `transform` is only changed when a certain condition is fulfilled, and the
+condition seemed to be dependent on the `latch__set` or `latch__reset` class.
 
 ![Aha moment](aha_moment.png)
 
@@ -116,10 +119,6 @@ for byte, val in bit_dictionary.items():
         print(val2, end="")
     print(" ", end="")
 ```
-
-## Running the Script
-
-Let's push our script to production and test it against the HTML file.
 
 ![running the script](script.png)
 ![converting binary to string](conversion.png)
