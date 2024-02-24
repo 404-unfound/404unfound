@@ -11,9 +11,9 @@ ctfs:
 
 ## Hack@AC'24: HackMe:)
 
-This was a forensics challenge that provided a WireShark capture of wifi traffic. The challenge was to find the flag from the [capture](router.pcap-01.cap).
+This was a forensics challenge that provided a WireShark capture of wifi traffic. The challenge was to find the flag from the [capture](router.pcap-01.cap) via wifi hacking.
 
-```
+```txt
 Hack me :)
 by sawntoe
 Hack me if you can :)
@@ -22,7 +22,7 @@ Hack me if you can :)
 
 ## The Challenge
 
-Opening the file in Wireshark, we can see that there a huge number of packets - 12,200 to be exact.
+Opening the file in Wireshark, we can see that there a huge number of packets - 12,200 to be exact. It'll be quite a hassle to go through all of them at this point, so we should probably analyse the whole situation first.
 
 ![Wireshark](wireshark.png)
 
@@ -32,11 +32,11 @@ The traffic seemed to be between a TP-Link router, an IntelCor device and a Xiao
 
 Usually when given a Wireshark capture of wifi traffic, the first thing that comes to mind would be using Aircrack-ng to crack the password, given that the capture contains a handshake.
 
-With reference to the image below:
+With reference to the image of the WPA Authentication Handshake below:
 
 ![WPA Authentication Handshake](wpa-psk.png)
 
-I could derive that there indeed was a handshake in the capture after scrolling through the packets. So, I could use Aircrack-ng to crack the password. I used rockyou.txt as the wordlist.
+I could derive that there indeed was a handshake in the capture after scrolling through the packets. So, I could use Aircrack-ng to crack the password. I used [rockyou.txt](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_g8eUjcSEAxURoGMGHW89C_YQFnoECAYQAQ&url=https%3A%2F%2Fgithub.com%2Fbrannondorsey%2Fnaive-hashcat%2Freleases%2Fdownload%2Fdata%2Frockyou.txt&usg=AOvVaw3snAERl1mU6Ccr4WFEazBd&opi=89978449) as the wordlist.
 
 ```bash
 kairos@pop-os:~/Downloads$ aircrack-ng router.pcap-01.cap -w ~/Documents/Tools/wordlist/rockyou.txt
@@ -63,7 +63,6 @@ After running it for a bit, the password was cracked.
                        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 
       EAPOL HMAC     : 31 E4 B8 96 75 29 95 7F 5E 17 A1 C2 98 74 D8 F7 
-
 ```
 
 ## Decrypting the Traffic
@@ -80,9 +79,9 @@ Now, the decrypted traffic can be seen. Simple right?
 
 Now comes the slightly mind-boggling part. We have so many packets, what do we filter for?
 
-There are a bunch of protocols here - 802.11, UDP, ARP, ICMP, HTTP... and so on. While we do have the decrypted traffic, some of the packets are still encrypted due to the nature of the protocol, like HTTPS. So we probably can't get a flag from that.
+There are a bunch of protocols here - 802.11, UDP, ARP, ICMP, HTTP, and so on. While we do have the decrypted traffic, some of the packets are still encrypted due to the nature of the protocol, like HTTPS. So we probably can't get a flag from that.
 
-So, we should look for something that we don't need to decrypt - like HTTP.
+Thus, we should look for something that we don't need to decrypt - like HTTP.
 
 ![HTTP Traffic](http.png)
 
