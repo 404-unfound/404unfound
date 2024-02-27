@@ -21,7 +21,8 @@ This was an interesting misc challenge, mixed with a little bit of steganography
 The image was a corrupted png file. I tried to fix the header but it didn't work :O
 
 I went on to check the strings of the file:
-```
+
+``` bash
 kairos@pop-os:~/Downloads$ strings distant-figure.png 
 nBWT\
 distant-figure/true-form.exe
@@ -138,12 +139,22 @@ nBWT\
 distant-figure/true-form.exePK
 ```
 
-From this, it seems like there is a hidden executable file within the image. To retrieve it, I used `binwalk` to extract the hidden files.
+From this, it seems like there is a hidden executable file (`distant-figure/true-form.exe`) within the image. To retrieve it, I used `binwalk` to extract the hidden files.
+
+```bash
+kairos@pop-os:~/Downloads$ binwalk -e distant-figure.png 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 8821, uncompressed size: 42727, name: distant-figure/true-form.exe
+8953          0x22F9          End of Zip archive, footer length: 22
+```
 
 ## Analysing the Hidden Files
 The extracted files contained a folder `distant-figure`, and within the folder was the `true-form.exe`.
 
-Again, I used `strings` to take a look at the exe file.
+Since I didn't want to run a random .exe file, I used `strings` to take a look at some of its data. It was quite a bit of data, so I sent it to a file.
+
 ```bash
 kairos@pop-os:~/Downloads$ strings binwalk/distant-figure/true-form.exe > output.txt
 ```
