@@ -17,11 +17,16 @@ I am trying to escape this 64-story horror house and the only way to escape is b
 
 This was a simple AES decrypting challenge. We are given a [flag.txt.aes](flag.txt.aes) file along with the random phrase.
 
+## The analysis
+
+As per the file extension, the flag.txt.aes file is encrypted using AES. Tools like AESCrypt, OpenSSL, etc. can be used to decrypt the file. However, we need the key to decrypt the file.
+
 ## Getting the Key
 
 Plugging the random phrase into a [Cipher Identifier](https://www.dcode.fr/cipher-identifier) online tool, it flagged it out as `Redefence Cipher` or `Base64 Coding`. 
 
-I tried both tools, and base64 the actual key: 
+I tried both tools, and Base64 decoding gave me the key: 
+
 ```
 1l0v35ymm3tr1ck3t5!!!
 ```
@@ -29,12 +34,13 @@ I tried both tools, and base64 the actual key:
 ## Decrypting the File
 
 Now that we have the key, we can go on with decrypting the AES file. I used AESCrypt's CLI tool:
+
 ```bash
 kairos@pop-os:~/Downloads$ aescrypt -d  flag.txt.aes
 Enter password:
 ```
 
-Entering `1l0v35ymm3tr1ck3t5!!!` unlocked the file :D
+Entering `1l0v35ymm3tr1ck3t5!!!` in the prompt unlocked the file :D
 
 Looking at flag.txt:
 
