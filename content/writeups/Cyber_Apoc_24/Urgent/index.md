@@ -9,7 +9,7 @@ ctfs:
   - CyberApoc'24
 ---
 
-# [Cyber Apoc '24] Urgent
+# Urgent
 
 This was an email forensics challenge where we are given an EML message file and are required to extract the flag from
 it. The given file can be found [here](forensics_urgent.zip).

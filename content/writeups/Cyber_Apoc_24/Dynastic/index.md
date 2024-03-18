@@ -9,7 +9,7 @@ ctfs:
   - CyberApoc'24
 ---
 
-# [Cyber Apoc '24] Dynastic
+# Dynastic
 
 This was a crypto challenge where we are given a Python script (encryption algo) and the output text file (cipher). The
 given files can be found [here](crypto_dynastic.zip).
