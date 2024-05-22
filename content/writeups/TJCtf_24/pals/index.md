@@ -9,7 +9,7 @@ ctfs:
   - TJCTF'24
 ---
 
-## TJCtf'24: Pals
+## Pals
 
 This was a pretty interesting PNG forensics challenge that pertained to the concept of PNG-specific steganography
 utilising the `PLTE` chunk, or the palette chunk. The challenge provided us with a PNG image, `pals.png`.
