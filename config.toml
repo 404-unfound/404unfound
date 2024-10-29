@@ -2,7 +2,7 @@ baseURL = 'https://404unfound.com/'
 languageCode = 'en-us'
 title = '404Unfound'
 theme = "hugo-theme-monochrome"
-paginate = 5
+pagination.pagerSize = 5
 enableEmoji = true
 
 [minify]
@@ -14,7 +14,7 @@ codeFences = false
 lineNos = false
 
 [params]
-footer = "© 2023 <a href=\"https://404unfound.com/\">404Unfound</a> Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://github.com/kaiiiz/hugo-theme-monochrome\">Monochrome</a>"
+footer = "© 2024 <a href=\"https://404unfound.com/\">404Unfound</a> Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://github.com/kaiiiz/hugo-theme-monochrome\">Monochrome</a>"
 enable_toc = false
 color_scheme = "dark"
 enable_site_search = true
